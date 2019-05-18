@@ -1,0 +1,381 @@
+[submenu] (01 Info Gathering)
+   [exec] (0trace) {xterm -bg black -fa 'Monospace' -fs 11 -e '0trace.sh ; bash'}
+   [exec] (acccheck) {xterm -bg black -fa 'Monospace' -fs 11 -e 'acccheck ; bash'}
+   [exec] (automater) {xterm -bg black -fa 'Monospace' -fs 11 -e 'automater -h ; bash'}
+   [exec] (braa) {xterm -bg black -fa 'Monospace' -fs 11 -e 'braa -h ; bash'}
+   [exec] (casefile) {sh -c "casefile"}
+   [exec] (cdpsnarf) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cdpsnarf -h ; bash'}
+   [exec] (dmitry) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dmitry ; bash'}
+   [exec] (dnmap-client) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnmap_client ; bash'}
+   [exec] (dnmap-server) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnmap_server ; bash'}
+   [exec] (dnsenum) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnsenum -h ; bash'}
+   [exec] (dnsmap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnsmap ; bash'}
+   [exec] (dnsrecon) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnsrecon -h ; bash'}
+   [exec] (dnstracer) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnstracer ; bash'}
+   [exec] (dnswalk) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnswalk --help ; bash'}
+   [exec] (enum4linux) {xterm -bg black -fa 'Monospace' -fs 11 -e 'enum4linux ; bash'}
+   [exec] (fierce) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fierce -h ; bash'}
+   [exec] (fping) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fping -h ; bash'}
+   [exec] (fragroute) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fragroute -h ; bash'}
+   [exec] (fragrouter) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fragrouter -h ; bash'}
+   [exec] (ftest) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ftest ; bash'}
+   [exec] (hping3) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hping3 -h ; bash'}
+   [exec] (ike-scan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ike-scan -h ; bash'}
+   [exec] (intrace) {xterm -bg black -fa 'Monospace' -fs 11 -e 'intrace ; bash'}
+   [exec] (iputils-arping) {xterm -bg black -fa 'Monospace' -fs 11 -e 'arping ; bash'}
+   [exec] (irpas-ass) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ass -h ; bash'}
+   [exec] (irpass-cdp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cdp ; bash'}
+   [exec] (lbd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'lbd ; bash'}
+   [exec] (maltegoce) {sh -c "maltegoce"}
+   [exec] (miranda) {xterm -bg black -fa 'Monospace' -fs 11 -e 'miranda -h ; bash'}
+   [exec] (nbtscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nbtscan -h ; bash'}
+   [exec] (ncat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ncat -h ; bash'}
+   [exec] (netdiscover) {xterm -bg black -fa 'Monospace' -fs 11 -e 'netdiscover -h ; bash'}
+   [exec] (netmask) {xterm -bg black -fa 'Monospace' -fs 11 -e 'netmask -h ; bash'}
+   [exec] (nmap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nmap ; bash'}
+   [exec] (onesixtyone) {xterm -bg black -fa 'Monospace' -fs 11 -e 'onesixtyone ; bash'}
+   [exec] (p0f) {xterm -bg black -fa 'Monospace' -fs 11 -e 'p0f -h ; bash'}
+   [exec] (recon-ng) {xterm -bg black -fa 'Monospace' -fs 11 -e 'recon-ng ; bash'}
+   [exec] (smbmap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'smbmap -h ; bash'}
+   [exec] (smtp-user-enum) {xterm -bg black -fa 'Monospace' -fs 11 -e 'smtp-user-enum -h ; bash'}
+   [exec] (snmp-check) {xterm -bg black -fa 'Monospace' -fs 11 -e 'snmp-check -h ; bash'}
+   [exec] (sparta) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sparta ; bash'}
+   [exec] (sslcaudit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslcaudit -h ; bash'}
+   [exec] (ssldump) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ssldump -h ; bash'}
+   [exec] (sslh) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslh -h ; bash'}
+   [exec] (sslscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslscan ; bash'}
+   [exec] (sslyze) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslyze -h ; bash'}
+   [exec] (swaks) {xterm -bg black -fa 'Monospace' -fs 11 -e 'swaks --help ; bash'}
+   [exec] (thcping6) {xterm -bg black -fa 'Monospace' -fs 11 -e 'atk6-thcping6 ; bash'}
+   [exec] (theharvester) {xterm -bg black -fa 'Monospace' -fs 11 -e 'theharvester ; bash'}
+   [exec] (tlssled) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tlssled ; bash'}
+   [exec] (twofi) {xterm -bg black -fa 'Monospace' -fs 11 -e 'twofi -h ; bash'}
+   [exec] (unicornscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'us -h ; bash'}
+   [exec] (urlcrazy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'urlcrazy -h ; bash'}
+   [exec] (wafw00f) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wafw00f -h ; bash'}
+   [exec] (wol-e) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wol-e -h ; bash'}
+   [exec] (xprobe2) {xterm -bg black -fa 'Monospace' -fs 11 -e 'xprobe2 -h ; bash'}
+   [exec] (zenmap) {sh -c "zenmap;${SHELL:-bash}"}
+[end]
+[submenu] (02 Vulnerability Analysis)
+   [exec] (bed) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bed ; bash'}
+   [exec] (cisco-global-exploiter) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cge.pl ; bash'}
+   [exec] (cisco-ocs) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cisco-ocs ; bash'}
+   [exec] (copy-router-config) {xterm -bg black -fa 'Monospace' -fs 11 -e 'copy-router-config.pl ; bash'}
+   [exec] (dhcpig) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pig.py -h ; bash'}
+   [exec] (enumiax) {xterm -bg black -fa 'Monospace' -fs 11 -e 'enumiax -h ; bash'}
+   [exec] (golismero) {xterm -bg black -fa 'Monospace' -fs 11 -e 'golismero -h ; bash'}
+   [exec] (iaxflood) {xterm -bg black -fa 'Monospace' -fs 11 -e 'iaxflood ; bash'}
+   [exec] (inviteflood) {xterm -bg black -fa 'Monospace' -fs 11 -e 'inviteflood -h ; bash'}
+   [exec] (lynis) {xterm -bg black -fa 'Monospace' -fs 11 -e 'lynis -h ; bash'}
+   [exec] (merge-router-config) {xterm -bg black -fa 'Monospace' -fs 11 -e 'merge-router-config.pl ; bash'}
+   [exec] (nikto) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nikto -h ; bash'}
+   [exec] (ohrwurm) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ohrwurm ; bash'}
+   [exec] (openvas initial setup) {xterm -bg black -fa 'Monospace' -fs 11 -e 'openvas-setup ; bash'}
+   [exec] (openvas start) {xterm -bg black -fa 'Monospace' -fs 11 -e 'openvas-start ; bash'}
+   [exec] (openvas stop) {xterm -bg black -fa 'Monospace' -fs 11 -e 'openvas-stop ; bash'}
+   [exec] (powerfuzzer) {sh -c "powerfuzzer;${SHELL:-bash}"}
+   [exec] (protos-sip) {xterm -bg black -fa 'Monospace' -fs 11 -e 'protos-sip -help ; bash'}
+   [exec] (rtpbreak) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rtpbreak -h ; bash'}
+   [exec] (rtpflood) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rtpflood ; bash'}
+   [exec] (rtpinsertsound) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rtpinsertsound -h ; bash'}
+   [exec] (rtpmixsound) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rtpmixsound -h ; bash'}
+   [exec] (sctpscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sctpscan ; bash'}
+   [exec] (sfuzz) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sfuzz -h ; bash'}
+   [exec] (siege) {xterm -bg black -fa 'Monospace' -fs 11 -e 'siege -h ; bash'}
+   [exec] (siparmyknife) {xterm -bg black -fa 'Monospace' -fs 11 -e 'siparmyknife ; bash'}
+   [exec] (sipp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sipp -h ; bash'}
+   [exec] (spike-generic_chunked) {xterm -bg black -fa 'Monospace' -fs 11 -e 'generic_chunked ; bash'}
+   [exec] (spike-generic_listen_tcp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'generic_listen_tcp ; bash'}
+   [exec] (spike-generic_send_tcp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'generic_send_tcp ; bash'}
+   [exec] (spike-generic_send_udp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'generic_send_udp ; bash'}
+   [exec] (svcrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'svcrack -h ; bash'}
+   [exec] (svcrash) {xterm -bg black -fa 'Monospace' -fs 11 -e 'svcrash -h ; bash'}
+   [exec] (svmap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'svmap -h ; bash'}
+   [exec] (svreport) {xterm -bg black -fa 'Monospace' -fs 11 -e 'svreport -h ; bash'}
+   [exec] (svwar) {xterm -bg black -fa 'Monospace' -fs 11 -e 'svwar -h ; bash'}
+   [exec] (t50) {xterm -bg black -fa 'Monospace' -fs 11 -e 't50 --help ; bash'}
+   [exec] (thc-ssl-dos) {xterm -bg black -fa 'Monospace' -fs 11 -e 'thc-ssl-dos -h ; bash'}
+   [exec] (unix-privesc-check) {xterm -bg black -fa 'Monospace' -fs 11 -e 'unix-privesc-check ; bash'}
+   [exec] (voiphopper) {xterm -bg black -fa 'Monospace' -fs 11 -e 'voiphopper ; bash'}
+   [exec] (yersinia) {xterm -bg black -fa 'Monospace' -fs 11 -e 'yersinia --help ; bash'}
+[end]
+[submenu] (03 Webapp Analysis)
+   [exec] (apache-users) {xterm -bg black -fa 'Monospace' -fs 11 -e 'apache-users ; bash'}
+   [exec] (blindelephant) {xterm -bg black -fa 'Monospace' -fs 11 -e 'BlindElephant.py -h ; bash'}
+   [exec] (burpsuite) {sh -c "java -jar /usr/bin/burpsuite"}
+   [exec] (cadaver) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cadaver ; bash'}
+   [exec] (clusterd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'clusterd -h ; bash'}
+   [exec] (commix) {xterm -bg black -fa 'Monospace' -fs 11 -e 'commix ; bash'}
+   [exec] (cutycapt) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cutycapt --help ; bash'}
+   [exec] (davtest) {xterm -bg black -fa 'Monospace' -fs 11 -e 'davtest ; bash'}
+   [exec] (deblaze) {xterm -bg black -fa 'Monospace' -fs 11 -e 'deblaze.py -h ; bash'}
+   [exec] (dirb) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dirb ; bash'}
+   [exec] (dirbuster) {sh -c "dirbuster;${SHELL:-bash}"}
+   [exec] (fimap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fimap -h ; bash'}
+   [exec] (grabber) {xterm -bg black -fa 'Monospace' -fs 11 -e 'grabber -h ; bash'}
+   [exec] (httrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'httrack -h ; bash'}
+   [exec] (jboss-autopwn-linux) {xterm -bg black -fa 'Monospace' -fs 11 -e 'jboss-linux ; bash'}
+   [exec] (jboss-autopwn-win) {xterm -bg black -fa 'Monospace' -fs 11 -e 'jboss-win ; bash'}
+   [exec] (joomscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'joomscan ; bash'}
+   [exec] (padbuster) {xterm -bg black -fa 'Monospace' -fs 11 -e 'padbuster ; bash'}
+   [exec] (paros) {sh -c "paros"}
+   [exec] (plecost) {xterm -bg black -fa 'Monospace' -fs 11 -e 'plecost -h ; bash'}
+   [exec] (proxystrike) {sh -c "proxystrike"}
+   [exec] (skipfish) {xterm -bg black -fa 'Monospace' -fs 11 -e 'skipfish -h ; bash'}
+   [exec] (sqlmap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sqlmap -h ; bash'}
+   [exec] (ua-tester) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ua-tester ; bash'}
+   [exec] (uniscan-gui) {sh -c "uniscan-gui"}
+   [exec] (wapiti) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wapiti -h ; bash'}
+   [exec] (webscarab) {sh -c "webscarab"}
+   [exec] (wfuzz) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wfuzz ; bash'}
+   [exec] (whatweb) {xterm -bg black -fa 'Monospace' -fs 11 -e 'whatweb -h ; bash'}
+   [exec] (wpscan) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wpscan --help ; bash'}
+   [exec] (xsser) {xterm -bg black -fa 'Monospace' -fs 11 -e 'xsser -h ; bash'}
+   [exec] (owasp-zap) {sh -c "zaproxy"}
+[end]
+[submenu] (04 Database Assessment)
+   [exec] (bbqsql) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bbqsql ; bash'}
+   [exec] (hexorbase) {sh -c "hexorbase"}
+   [exec] (jSQL Injection) {sh -c "jsql"}
+   [exec] (mdb-sql) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mdb-sql -h ; bash'}
+   [exec] (oscanner) {xterm -bg black -fa 'Monospace' -fs 11 -e 'oscanner ; bash'}
+   [exec] (sidguesser) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sidguess ; bash'}
+   [exec] (sqldict) {sh -c "sqldict"}
+   [exec] (sqlninja) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sqlninja ; bash'}
+   [exec] (sqlsus) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sqlsus -h ; bash'}
+   [exec] (tnscmd10g) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tnscmd10g ; bash'}
+[end]
+[submenu] (05 Password Attacks)
+   [exec] (cachedump) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cachedump -h ; bash'}
+   [exec] (cewl) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cewl --help ; bash'}
+   [exec] (chntpw) {xterm -bg black -fa 'Monospace' -fs 11 -e 'chntpw -h ; bash'}
+   [exec] (cmospwd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cmospwd ; bash'}
+   [exec] (crunch) {xterm -bg black -fa 'Monospace' -fs 11 -e 'crunch ; bash'}
+   [exec] (fcrackzip) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fcrackzip --help ; bash'}
+   [exec] (findmyhash) {xterm -bg black -fa 'Monospace' -fs 11 -e 'findmyhash ; bash'}
+   [exec] (hash-identifier) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hash-identifier ; bash'}
+   [exec] (hashcat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hashcat --help ; bash'}
+   [exec] (hashid) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hashid -h ; bash'}
+   [exec] (hydra) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hydra -h ; bash'}
+   [exec] (john) {xterm -bg black -fa 'Monospace' -fs 11 -e 'john ; bash'}
+   [exec] (johnny) {sh -c "johnny;${SHELL:-bash}"}
+   [exec] (keimpx) {xterm -bg black -fa 'Monospace' -fs 11 -e 'keimpx -h ; bash'}
+   [exec] (lsadump) {xterm -bg black -fa 'Monospace' -fs 11 -e 'lsadump -h ; bash'}
+   [exec] (maskgen) {xterm -bg black -fa 'Monospace' -fs 11 -e 'maskgen -h ; bash'}
+   [exec] (medusa) {xterm -bg black -fa 'Monospace' -fs 11 -e 'medusa -h ; bash'}
+   [exec] (ncrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ncrack -h ; bash'}
+   [exec] (ophcrack-cli) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ophcrack-cli ; bash'}
+   [exec] (ophcrack) {sh -c "ophcrack"}
+   [exec] (patator) {xterm -bg black -fa 'Monospace' -fs 11 -e 'patator -h ; bash'}
+   [exec] (policygen) {xterm -bg black -fa 'Monospace' -fs 11 -e 'policygen -h ; bash'}
+   [exec] (pth-curl) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-curl -h ; bash'}
+   [exec] (pth-net) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-net help ; bash'}
+   [exec] (pth-openchangeclient) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-openchangeclient --help ; bash'}
+   [exec] (pth-rpcclient) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-rpcclient -h ; bash'}
+   [exec] (pth-smbclient) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-smbclient -h ; bash'}
+   [exec] (pth-smbget) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-smbget --help ; bash'}
+   [exec] (pth-sqsh) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-sqsh --help ; bash'}
+   [exec] (pth-winexe) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-winexe -h ; bash'}
+   [exec] (pth-wmic) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-wmic -h ; bash'}
+   [exec] (pth-wmis) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pth-wmis -h ; bash'}
+   [exec] (pwdump) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pwdump -h ; bash'}
+   [exec] (pyrit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pyrit -h ; bash'}
+   [exec] (rcracki_mt) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rcracki_mt ; bash'}
+   [exec] (rsmangler) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rsmangler -h ; bash'}
+   [exec] (samdump2) {xterm -bg black -fa 'Monospace' -fs 11 -e 'samdump2 -h ; bash'}
+   [exec] (sipcrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sipcrack -h ; bash'}
+   [exec] (statsgen) {xterm -bg black -fa 'Monospace' -fs 11 -e 'statsgen -h ; bash'}
+   [exec] (sucrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'man sucrack ; bash'}
+   [exec] (thc-pptp-bruter) {xterm -bg black -fa 'Monospace' -fs 11 -e 'thc-pptp-bruter ; bash'}
+   [exec] (truecrack) {xterm -bg black -fa 'Monospace' -fs 11 -e 'truecrack -h ; bash'}
+   [exec] (wordlists) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cd /usr/share/wordlists && ls -l ; bash'}
+[end]
+[submenu] (06 Wireless Attacks)
+   [exec] (aircrack-ng) {xterm -bg black -fa 'Monospace' -fs 11 -e 'aircrack-ng --help ; bash'}
+   [exec] (asleap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'asleap -h ; bash'}
+   [exec] (bluelog) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bluelog -h ; bash'}
+   [exec] (blueranger) {xterm -bg black -fa 'Monospace' -fs 11 -e 'blueranger.sh ; bash'}
+   [exec] (bluesnarfer) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bluesnarfer ; bash'}
+   [exec] (btscanner) {xterm -bg black -fa 'Monospace' -fs 11 -e 'btscanner -h ; bash'}
+   [exec] (bully) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bully ; bash'}
+   [exec] (cisco-auditing-tool) {xterm -bg black -fa 'Monospace' -fs 11 -e 'CAT ; bash'}
+   [exec] (cisco-torch) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cisco-torch ; bash'}
+   [exec] (cowpatty) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cowpatty ; bash'}
+   [exec] (eapmd5pass) {xterm -bg black -fa 'Monospace' -fs 11 -e 'eapmd5pass -h ; bash'}
+   [exec] (fern wifi cracker) {sh -c "fern-wifi-cracker"}
+   [exec] (ghost phisher) {sh -c "ghost-phisher"}
+   [exec] (giskismet) {xterm -bg black -fa 'Monospace' -fs 11 -e 'giskismet -h ; bash'}
+   [exec] (hackrf_info) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hackrf_info -h ; bash'}
+   [exec] (mdk3) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mdk3 --help ; bash'}
+   [exec] (mfcuk) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mfcuk -h ; bash'}
+   [exec] (mfoc) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mfoc -h ; bash'}
+   [exec] (mfterm) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mfterm -h ; bash'}
+   [exec] (mifare-classic-format) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mifare-classic-format -h ; bash'}
+   [exec] (nfc-list) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nfc-list -h ; bash'}
+   [exec] (nfc-mfclassic) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nfc-mfclassic -h ; bash'}
+   [exec] (pixiewps) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pixiewps -h ; bash'}
+   [exec] (reaver) {xterm -bg black -fa 'Monospace' -fs 11 -e 'reaver -h ; bash'}
+   [exec] (redfang) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fang -h ; bash'}
+   [exec] (spooftooph) {xterm -bg black -fa 'Monospace' -fs 11 -e 'spooftooph -h ; bash'}
+   [exec] (wifi-honey) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifi-honey -h ; bash'}
+   [exec] (wifiarp) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifiarp -h ; bash'}
+   [exec] (wifidns) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifidns -h ; bash'}
+   [exec] (wifiping) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifiping -h ; bash'}
+   [exec] (wifitap) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifitap -h ; bash'}
+   [exec] (wifite) {xterm -bg black -fa 'Monospace' -fs 11 -e 'wifite --help ; bash'}
+   [exec] (zbassocflood) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbassocflood -h ; bash'}
+   [exec] (zbdsniff) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbdsniff ; bash'}
+   [exec] (zbdump) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbdump -h ; bash'}
+   [exec] (zbfind) {sh -c "zbfind"}
+   [exec] (zbgoodfind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbgoodfind -h ; bash'}
+   [exec] (zbreplay) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbreplay -h ; bash'}
+   [exec] (zbstumbler) {xterm -bg black -fa 'Monospace' -fs 11 -e 'zbstumbler -h ; bash'}
+[end]
+[submenu] (07 Reverseengineer)
+   [exec] (apktool) {xterm -bg black -fa 'Monospace' -fs 11 -e 'apktool ; bash'}
+   [exec] (clang++) {xterm -bg black -fa 'Monospace' -fs 11 -e 'clang++ --help ; bash'}
+   [exec] (clang) {xterm -bg black -fa 'Monospace' -fs 11 -e 'clang --help ; bash'}
+   [exec] (edb-debugger) {sh -c "edb;${SHELL:-bash}"}
+   [exec] (flasm) {xterm -bg black -fa 'Monospace' -fs 11 -e 'flasm ; bash'}
+   [exec] (jad) {xterm -bg black -fa 'Monospace' -fs 11 -e 'jad ; bash'}
+   [exec] (javasnoop) {sh -c "javasnoop"}
+   [exec] (NASM shell) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cd /usr/share/metasploit-framework/tools/exploit && ./nasm_shell.rb ; bash'}
+   [exec] (ollydbg) {sh -c "ollydbg"}
+   [exec] (radare2) {xterm -bg black -fa 'Monospace' -fs 11 -e 'radare2 -h ; bash'}
+   [exec] (recstudio-cli) {xterm -bg black -fa 'Monospace' -fs 11 -e 'recstudio-cli ; bash'}
+   [exec] (recstudio) {sh -c "recstudio"}
+[end]
+[submenu] (08 Exploitation Tools)
+   [exec] (armitage) {sh -c "msfdb init && armitage;${SHELL:-bash}"}
+   [exec] (beef xss framework) {xterm -bg black -fa 'Monospace' -fs 11 -e 'beef-xss ; bash'}
+   [exec] (metasploit framework) {xterm -bg black -fa 'Monospace' -fs 11 -e 'service postgresql start && msfdb init && msfconsole ; bash'}
+   [exec] (msf payload creator) {xterm -bg black -fa 'Monospace' -fs 11 -e 'msfpc ; bash'}
+   [exec] (searchsploit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'searchsploit ; bash'}
+   [exec] (social engineering toolkit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'setoolkit ; bash'}
+   [exec] (termineter) {xterm -bg black -fa 'Monospace' -fs 11 -e 'termineter -h ; bash'}
+   [exec] (vfeedcli) {xterm -bg black -fa 'Monospace' -fs 11 -e 'vfeedcli ; bash'}
+[end]
+[submenu] (09 Sniffing Spoofing)
+   [exec] (bdfproxy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bdfproxy ; bash'}
+   [exec] (darkstat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'darkstat ; bash'}
+   [exec] (dnschef) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dnschef -h ; bash'}
+   [exec] (dsniff) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dsniff -h ; bash'}
+   [exec] (ettercap-graphical) {sh -c "ettercap -G"}
+   [exec] (ferret) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ferret ; bash'}
+   [exec] (fiked) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fiked -h ; bash'}
+   [exec] (hamster) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hamster ; bash'}
+   [exec] (hexinject) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hexinject -h ; bash'}
+   [exec] (macchanger) {xterm -bg black -fa 'Monospace' -fs 11 -e 'macchanger -h ; bash'}
+   [exec] (mitmproxy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mitmproxy -h ; bash'}
+   [exec] (netsniff-ng) {xterm -bg black -fa 'Monospace' -fs 11 -e 'netsniff-ng -h ; bash'}
+   [exec] (nfspy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'nfspy -h ; bash'}
+   [exec] (rebind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dns-rebind ; bash'}
+   [exec] (responder) {xterm -bg black -fa 'Monospace' -fs 11 -e 'responder -h ; bash'}
+   [exec] (sniffjoke) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sniffjoke --help ; bash'}
+   [exec] (sslsniff) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslsniff ; bash'}
+   [exec] (sslsplit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslsplit -h ; bash'}
+   [exec] (sslstrip) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sslstrip -h ; bash'}
+   [exec] (tcpflow) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tcpflow -h ; bash'}
+   [exec] (tcpreplay) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tcpreplay -h ; bash'}
+   [exec] (wireshark) {sh -c "wireshark"}
+[end]
+[submenu] (10 Maintaining Access)
+   [exec] (backdoor-factory) {xterm -bg black -fa 'Monospace' -fs 11 -e 'backdoor-factory -h ; bash'}
+   [exec] (cymothoa) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cymothoa -h ; bash'}
+   [exec] (dbd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dbd -h ; bash'}
+   [exec] (dns2tcpc) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dns2tcpc ; bash'}
+   [exec] (dns2tcpd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dns2tcpd ; bash'}
+   [exec] (exe2hex) {xterm -bg black -fa 'Monospace' -fs 11 -e 'exe2hex ; bash'}
+   [exec] (intersect) {xterm -bg black -fa 'Monospace' -fs 11 -e 'intersect ; bash'}
+   [exec] (iodine) {xterm -bg black -fa 'Monospace' -fs 11 -e 'iodine-client-start -h ; bash'}
+   [exec] (laudanum) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ls -l /usr/share/laudanum ; bash'}
+   [exec] (mimikatz) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cd /usr/share/mimikatz/ && ls -l ; bash'}
+   [exec] (miredo) {xterm -bg black -fa 'Monospace' -fs 11 -e 'miredo -h ; bash'}
+   [exec] (nishang) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cd /usr/share/nishang && ls -l ; bash'}
+   [exec] (powersploit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'cd /usr/share/powersploit/ && ls -l ; bash'}
+   [exec] (proxychains) {xterm -bg black -fa 'Monospace' -fs 11 -e 'proxychains ; bash'}
+   [exec] (proxytunnel) {xterm -bg black -fa 'Monospace' -fs 11 -e 'proxytunnel -h ; bash'}
+   [exec] (ptunnel) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ptunnel -h ; bash'}
+   [exec] (pwnat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pwnat -h ; bash'}
+   [exec] (sbd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sbd -h ; bash'}
+   [exec] (stunnel4) {xterm -bg black -fa 'Monospace' -fs 11 -e 'stunnel4 -help ; bash'}
+   [exec] (u3-pwn) {xterm -bg black -fa 'Monospace' -fs 11 -e 'u3-pwn ; bash'}
+   [exec] (udptunnel) {xterm -bg black -fa 'Monospace' -fs 11 -e 'udptunnel -h ; bash'}
+   [exec] (veil-evasion) {xterm -bg black -fa 'Monospace' -fs 11 -e 'veil-evasion -h ; bash'}
+   [exec] (webacoo) {xterm -bg black -fa 'Monospace' -fs 11 -e 'webacoo -h ; bash'}
+   [exec] (weevely) {xterm -bg black -fa 'Monospace' -fs 11 -e 'weevely ; bash'}
+[end]
+[submenu] (11 Forensics)
+   [exec] (affcat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'affcat -h ; bash'}
+   [exec] (autopsy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'autopsy ; bash'}
+   [exec] (binwalk) {xterm -bg black -fa 'Monospace' -fs 11 -e 'binwalk -h ; bash'}
+   [exec] (blkcalc) {xterm -bg black -fa 'Monospace' -fs 11 -e 'blkcalc ; bash'}
+   [exec] (blkcat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'blkcat ; bash'}
+   [exec] (blkls) {xterm -bg black -fa 'Monospace' -fs 11 -e 'blkls ; bash'}
+   [exec] (blkstat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'blkstat ; bash'}
+   [exec] (bulk_extractor) {xterm -bg black -fa 'Monospace' -fs 11 -e 'bulk_extractor -h ; bash'}
+   [exec] (chkrootkit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'chkrootkit -h ; bash'}
+   [exec] (dc3dd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dc3dd --help ; bash'}
+   [exec] (dcfldd) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dcfldd --help ; bash'}
+   [exec] (ddrescue) {xterm -bg black -fa 'Monospace' -fs 11 -e 'dd_rescue -h ; bash'}
+   [exec] (dex2jar) {xterm -bg black -fa 'Monospace' -fs 11 -e 'd2j-dex2jar -h ; bash'}
+   [exec] (ewfacquire) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ewfacquire -h ; bash'}
+   [exec] (extundelete) {xterm -bg black -fa 'Monospace' -fs 11 -e 'extundelete --help ; bash'}
+   [exec] (ffind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ffind ; bash'}
+   [exec] (fls) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fls ; bash'}
+   [exec] (foremost) {xterm -bg black -fa 'Monospace' -fs 11 -e 'foremost -h ; bash'}
+   [exec] (fsstat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'fsstat ; bash'}
+   [exec] (galleta) {xterm -bg black -fa 'Monospace' -fs 11 -e 'galleta ; bash'}
+   [exec] (guymager) {sh -c "guymager"}
+   [exec] (hashdeep) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hashdeep -h ; bash'}
+   [exec] (hfind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'hfind ; bash'}
+   [exec] (icat-sleuthkit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'icat ; bash'}
+   [exec] (ifind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ifind ; bash'}
+   [exec] (ils-sleuthkit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'ils ; bash'}
+   [exec] (img_cat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'img_cat ; bash'}
+   [exec] (img_stat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'img_stat ; bash'}
+   [exec] (istat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'istat ; bash'}
+   [exec] (jcat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'jcat ; bash'}
+   [exec] (jls) {xterm -bg black -fa 'Monospace' -fs 11 -e 'jls ; bash'}
+   [exec] (mactime-sleuthkit) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mactime ; bash'}
+   [exec] (magicrescue) {xterm -bg black -fa 'Monospace' -fs 11 -e 'magicrescue ; bash'}
+   [exec] (missidentify) {xterm -bg black -fa 'Monospace' -fs 11 -e 'missidentify -h ; bash'}
+   [exec] (mmcat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mmcat ; bash'}
+   [exec] (mmls) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mmls ; bash'}
+   [exec] (mmstat) {xterm -bg black -fa 'Monospace' -fs 11 -e 'mmstat ; bash'}
+   [exec] (pasco) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pasco ; bash'}
+   [exec] (pdf-parser) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pdf-parser -h ; bash'}
+   [exec] (pdfid) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pdfid -h ; bash'}
+   [exec] (pdgmail) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pdgmail -h ; bash'}
+   [exec] (peepdf) {xterm -bg black -fa 'Monospace' -fs 11 -e 'peepdf -h ; bash'}
+   [exec] (pev) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pev -h ; bash'}
+   [exec] (readpst) {xterm -bg black -fa 'Monospace' -fs 11 -e 'readpst -h ; bash'}
+   [exec] (recoverjpeg) {xterm -bg black -fa 'Monospace' -fs 11 -e 'recoverjpeg -h ; bash'}
+   [exec] (reglookup) {xterm -bg black -fa 'Monospace' -fs 11 -e 'reglookup ; bash'}
+   [exec] (regripper) {sh -c "regripper"}
+   [exec] (rifiuti) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rifiuti ; bash'}
+   [exec] (rifiuti2) {xterm -bg black -fa 'Monospace' -fs 11 -e 'rifiuti2 -h ; bash'}
+   [exec] (safecopy) {xterm -bg black -fa 'Monospace' -fs 11 -e 'safecopy -h ; bash'}
+   [exec] (scalpel) {xterm -bg black -fa 'Monospace' -fs 11 -e 'scalpel -h ; bash'}
+   [exec] (scrounge-ntfs) {xterm -bg black -fa 'Monospace' -fs 11 -e 'scrounge-ntfs -h ; bash'}
+   [exec] (sigfind) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sigfind ; bash'}
+   [exec] (sorter) {xterm -bg black -fa 'Monospace' -fs 11 -e 'sorter ; bash'}
+   [exec] (srch_strings) {xterm -bg black -fa 'Monospace' -fs 11 -e 'srch_strings -h ; bash'}
+   [exec] (tsk_comparedir) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tsk_comparedir ; bash'}
+   [exec] (tsk_gettimes) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tsk_gettimes -h ; bash'}
+   [exec] (tsk_loaddb) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tsk_loaddb ; bash'}
+   [exec] (tsk_recover) {xterm -bg black -fa 'Monospace' -fs 11 -e 'tsk_recover ; bash'}
+   [exec] (vinetto) {xterm -bg black -fa 'Monospace' -fs 11 -e 'vinetto -h ; bash'}
+   [exec] (volafox) {xterm -bg black -fa 'Monospace' -fs 11 -e 'volafox ; bash'}
+   [exec] (volatility) {xterm -bg black -fa 'Monospace' -fs 11 -e 'volatility -h ; bash'}
+[end]
+[submenu] (12 Reporting)
+   [exec] (dradis) {sh -c "service dradis start; xdg-open http://127.0.0.1:3000"}
+   [exec] (eyewitness) {xterm -bg black -fa 'Monospace' -fs 11 -e 'eyewitness -h ; bash'}
+   [exec] (faraday IDE) {xterm -bg black -fa 'Monospace' -fs 11 -e 'python-faraday ; bash'}
+   [exec] (keepnote) {sh -c "keepnote"}
+   [exec] (magictree) {sh -c "magictree"}
+   [exec] (pipal) {xterm -bg black -fa 'Monospace' -fs 11 -e 'pipal -h ; bash'}
+   [exec] (recordmydesktop) {xterm -bg black -fa 'Monospace' -fs 11 -e 'recordmydesktop -h ; bash'}
+[end]
