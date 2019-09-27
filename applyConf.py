@@ -19,6 +19,7 @@ import argparse
 import os
 import sys
 import shutil
+import subprocess
 from datetime import datetime
 
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -32,10 +33,15 @@ availableConfigs ={
 	'fluxbox':[(home+'/.fluxbox','custom/fluxbox')],
 	'terminator':[(home+'/.config/terminator','custom/terminator')],
 	'vim':[(home+'/.vimrc','custom/vimrc')],
-	'zsh':[(home+'/.zshrc','custom/zshrc'),(home+'/.oh-my-zsh','custom/oh-my-zsh')],
+	#'zsh':[(home+'/.zshrc','custom/zshrc'),(home+'/.oh-my-zsh','custom/oh-my-zsh')],
+	'zsh':[(home+'/.zshrc','custom/oh-my-zsh/zshrc'),(home+'/.oh-my-zsh/themes/sysadmin.zsh-theme','custom/oh-my-zsh/sysadmin.zsh-theme')],
 }
 
 def applysettings(config):
+	if config == 'zsh':
+		subprocess.Popen(sys.path[0] + "/custom/oh-my-zsh/install.sh", shell=True)
+	if config == 'terminator':
+		print('Install fonts-powerline for compatibility with Terminator config file')
 	for pairs in availableConfigs[config]:
 		source=sys.path[0] + '/' + pairs[1]
 		dest=pairs[0]
